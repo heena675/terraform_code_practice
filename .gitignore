@@ -1,0 +1,10 @@
+# Ignore .terraform directory and all its contents
+.terraform/
+
+# Ignore other dot directories (recursively)
+.*
+
+# Keep .gitignore itself
+!.gitignore
+
+.terraform.lock.hcl
