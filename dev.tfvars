@@ -10,14 +10,16 @@ rg_map = {
       }
 }
 
-# # sa_map = {
-#   dev-sa1 = {
-#     name     = "dev-sa1"
-#     location = "East US"
+sa_map = {
+  dev-sa1 = {
+    name     = "dev-sa1"
+    location = "East US"
+    account_replication_type = "LRS"
    
-#   }
-#   dev-sa2 = {
-#     name     = "dev-sa2"
-#     location = "West US"
-#       }
-# }
+  }
+  dev-sa2 = {
+    name     = "dev-sa2"
+    location = "West US"
+    account_replication_type = "LRS"
+      }
+}
