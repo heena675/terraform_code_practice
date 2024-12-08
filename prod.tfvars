@@ -16,14 +16,16 @@ rg_map = {
     }
   }
 }
-# sa_map = {
-#   prod-sa1 = {
-#     name     = "dev-sa1"
-#     location = "East US"
+sa_map = {
+  prod-sa1 = {
+    name     = "dev-sa1"
+    location = "East US"
+    account_replication_type = "LRS"
 
-#   }
-#   prod-sa2 = {
-#     name     = "dev-sa2"
-#     location = "West US"
-#   }
-# }
+  }
+  prod-sa2 = {
+    name     = "dev-sa2"
+    location = "West US"
+    account_replication_type = "LRS"
+  }
+}

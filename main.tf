@@ -6,7 +6,7 @@ module "azurerm_rg" {
 }
 
 
-# module "azurerm_sa" {
-#   source     = "./modules/azurerm_storage_account"
-#   sa_details = var.sa_map
-# }
+module "azurerm_sa" {
+  source     = "./modules/azurerm_storage_account"
+  sa_details = var.sa_map
+}
